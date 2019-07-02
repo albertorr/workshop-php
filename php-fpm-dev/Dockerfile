@@ -1,4 +1,4 @@
-FROM php-fpm-base
+FROM aramiro/workshop-php:7.2
 
 # install xdebug
 RUN pecl install xdebug && docker-php-ext-enable xdebug
